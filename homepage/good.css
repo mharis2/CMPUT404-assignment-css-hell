@@ -1,0 +1,82 @@
+html {
+background: #e6e6e6; /* For browsers that do not support gradients */
+font-family: 'Courier New', Courier, monospace;
+color: #ddab8e;
+}
+
+
+/* Create two equal columns that float next to each other */
+
+
+/* make the text in the .me section bigger */
+.header{
+    width: 300px;
+    border: 5px solid #ddab8e;
+    padding: 50px;
+    margin: 20px;
+    text-align: center;
+    /*centre it*/
+    margin-left: auto;
+    margin-right: auto;
+    /*make it round*/
+   
+    
+}
+.avatar {
+    border-radius: 25px;
+    width: 300;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.me {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ddab8e;
+    text-align: center;
+    border-style: solid;
+    border-width: 4px;
+    background: #48b8c0;
+    padding-top:50px
+}
+.pro-history{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ddab8e;
+    text-align: center;
+    border-width: 4px;
+    background: #48b8c0;
+    border-style: solid;
+    padding-top:10px
+
+    
+
+}
+.skills{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ddab8e;
+    text-align: center;
+    border-width: 4px;
+    background: #48b8c0;
+    border-style: solid;
+    padding-top:10px
+
+}
+.points{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ddab8e;
+    text-align: center;
+    border-width: 4px;
+    background: #48b8c0;
+    border-style: solid;
+    padding-top:10px
+
+
+}
+
+
