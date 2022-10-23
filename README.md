@@ -12,6 +12,12 @@ Read this comic http://theoatmeal.com/comics/design_hell
 
 git clone https://github.com/abramhindle/CMPUT404-assignment-css-hell.git
 
+Modifications to the project gutenburg HTML files:
+
+I took out the css in all of three of the html files and contained it within one css file called styles.css which they all referenced.
+
+For the html file with images I had to replace its current path to a relative path with the appropriate images contained within the images folder.
+
 License/Copyright
 =================
 
