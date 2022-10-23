@@ -1,17 +1,44 @@
+<!-- 
+Create a resume page that has the following 3 sections:
+1. Profesional History
+2. Who I am
+3. Skills
+-->
 <!DOCTYPE html>
-<html>
+<html class = "page">
 <meta charset="utf-8">
 <head>
     <link rel="stylesheet" href="bad.css">
     <title>Muhammad Haris</title>
-</head class = >
-<body class = "body">
+</head>
+<body>
+    <div class="rect">
+    </div>
     <div class="header">
-        <h1>Muhammad Haris</h1>
+        <span>Muhammad Haris</span>
         <img src ="images/profile.png" alt ="Avatar" class = "avatar">
     </div>
+    <!-- Create a navigation bar-->
+    <div class="navbar">
+        <a href="#meid">Home</a>
+        <a href="#pro-historyid">Professional History</a>
+        <a href="#skillsid">Skills</a>
+        <a href = "#kpid">Key Points</a>
+    </div>
+    <div class = "points">
+        <div class = "keypoints">
+        <h1 id = "kpid">Key Points </h1>
+        <div class = "pts">
+        <br>Team Player
+        <br>Hardworking
+        <br>Fast Learner
+        <br>Good Communicator
+        <br>Good Listener
+        </div>
+        </div>
+    </div>
     <div class="me">
-        <h1>About Me</h1>
+        <h1 id = "meid">About Me</h1>
         <p>My name is Muhammad Haris. I am in my 4th year of computer science studying at the University of Alberta.
             I love learning new things and am always looking for new opportunities to learn and grow.
             I enjoy both playing and creating video games and am eager to learn more about the industry.
@@ -19,33 +46,26 @@
         </p>
     </div>
     <div class = "pro-history">
-        <h1>Professional History</h1>
-        <p> I have over 3 years of expereince in retail.
+        <h1 id = "pro-historyid">Professional History</h1>
+        <p class = "phist"> I have over 3 years of expereince in retail.
             I have also worked as a junior software developer for about 6 months.
             I also have experience working with a team to develop an Android application
         </p>
     </div>
     <div class = "skills">
-        <h1>Skills</h1>
+        <h1 id = "skillsid">Skills</h1>
         <ul class ="skillslist">
             <li>Java</li>
             <li>Python</li>
             <li>HTML</li>
             <li>CSS</li>
-            <li>Android</li>
+            <li>Android Studio</li>
             <li>Git</li>
             <li>SQL</li>
             <li>Unity</li>
         </ul>
     </div>
-    <div class = "points">
-        <h1>Key Points</h1>
-        <ul class = "pointslist">
-            <li>Hardworking</li>
-            <li>Team Player</li>
-            <li>Fast Learner</li>
-            <li>Good Communicator</li>
-    </div>
+
 </body>
 
 </html>
