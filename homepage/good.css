@@ -7,7 +7,7 @@ html {
 background: var(--bg2); /* For browsers that do not support gradients */
 color: var(--text);
 /* Use optima */
-font-family: Copperplate,Copperplate Gothic Light,fantasy;
+font-family: Cambria, Georgia, serif;
 
 }
 
